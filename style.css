@@ -1,0 +1,53 @@
+/* Membuat kotak berada di tengah layar */
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #0646a7;
+}
+
+/* Kotak utama */
+.card {
+  width: 320px; /* Sesuaikan lebar */
+  padding: 40px 20px;
+  background-color: #f5bfbf;
+  border-radius: 25px; /* Membuat sudut kotak tumpul sesuai gambar */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Kunci agar semua isi di dalam kotak ke tengah */
+  font-family: sans-serif;
+}
+
+/* Foto profil bulat */
+.card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #5da0e2; /* Garis biru seperti di gambar */
+  margin-bottom: 20px;
+}
+
+/* Styling nama */
+.card h3 {
+  margin: 10px 0 5px 0;
+  color: #333;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+/* Styling link Instagram */
+.card a {
+  text-decoration: none;
+  color: #512da8; /* Warna ungu link */
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
